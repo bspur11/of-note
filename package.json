@@ -1,0 +1,22 @@
+{
+  "name": "of-note",
+  "version": "1.0.0",
+  "description": "A note taking and saving app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bspur11/of-note.git"
+  },
+  "keywords": [
+    "brad"
+  ],
+  "author": "Brad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bspur11/of-note/issues"
+  },
+  "homepage": "https://github.com/bspur11/of-note#readme"
+}
