@@ -4,7 +4,7 @@ const router = require('express').Router();
 
 router.get('/api/notes', (req, res) => {
   let saved = notes;
-  // console.log(saved)
+  console.log(saved)
   res.json(saved);
 })
 
