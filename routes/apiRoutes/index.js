@@ -10,7 +10,7 @@ router.get('/api/notes', (req, res) => {
 
 router.post('/api/notes', (req, res) => {
   req.body.id = uuidv4()
-  console.log(req.body)
+  // console.log(req.body)
   notes.push(req.body)
   res.json(notes);
 })
