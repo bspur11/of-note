@@ -52,7 +52,7 @@ const deleteNote = (id) =>
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
-
+    
   if (activeNote.id) {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
@@ -103,6 +103,7 @@ const handleNoteView = (e) => {
 // Sets the activeNote to and empty object and allows the user to enter a new note
 const handleNewNoteView = (e) => {
   activeNote = {};
+  location.reload();
   renderActiveNote();
 };
 
@@ -178,3 +179,4 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+ 
