@@ -12,3 +12,6 @@ Express - Node Framework used
 Heroku - Used to deploy application
 
 ## Github
+https://github.com/bspur11/of-note.git
+
+## Heroku
